@@ -1,1 +1,1 @@
-# etcura
+# http://studioetcura.pl
