@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    background-color: rgb(120, 22, 64);
+    text-align: center;
+    color: rgb(216, 224, 219);
+}
+
+#kurak {
+    width: 20%;
+    /*margin: -10px 0;*/
+}
+
+a {
+    text-decoration: none;
+    color: rgb(232, 176, 65);
+    font-weight: bold;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -125px;
+}
+
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer, .page-wrap:after {
+    height: 125px;
+}
+
